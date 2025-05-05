@@ -29,7 +29,7 @@ def get_weather(city, api_key):
         print("❌ Error fetching weather:", e)
 
 
-API_KEY = "https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}"
+API_KEY = "464c0ed6e29bfa08034480378b8e76ef"
 
 while True:
     welcome()

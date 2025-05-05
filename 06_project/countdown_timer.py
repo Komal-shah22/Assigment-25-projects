@@ -15,7 +15,7 @@ def countdown_timer(seconds):
     while seconds:
         minutes, secs = divmod(seconds, 60)
         timer_display = f"{minutes:02d}:{secs:02d}"
-        print(f"\r Time Remaining: {timer_display}", end="")  # Updates the same line
+        print(f"\r Time Remaining: {timer_display}", end="")  
         time.sleep(1)
         seconds -= 1
 
